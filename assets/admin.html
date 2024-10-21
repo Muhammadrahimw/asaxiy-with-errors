@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/admin.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <main class="container">
+        <section class="left">
+            <div class="btns">
+                <button id="post" class="btn">Mahsulot qo'shing</button>
+                <button id="delete" class="btn">Mahsulotni o'chiring</button>
+                <button id="put" class="btn">Mahsulotni o'zgartiring</button>
+            </div>
+        </section>
+        <section class="right">
+            <!-- <div class="preview_card"> -->
+            <!-- <div class="card">
+                    <div class="img"></div>
+                    <p class="title">
+                        Смартфон Samsung Galaxy A55
+                        8/256 Awesome Navy
+                    </p>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                        </div>
+                        <div class="comments">
+                            4 отзывов
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="real_price">5 259 000 сум</div>
+                        <div class="precent_price">4 799 000 сум</div>
+                        <div class="monthly_price">579 900 сум x 12 мес</div>
+                    </div>
+                    <div class="adding_product">
+                        <button class="btn">Купить в один клик</button>
+                        <div>
+                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="info">
+                <input required id="inputImg" placeholder="rasm qo'shing" type="file">
+                <div class="selectContainer">
+                    <p>mahsulot turini belgilang</p>
+                    <select>
+                        <option value="air">air</option>
+                        <option value="phone">phone</option>
+                        <option value="house">house</option>
+                        <option value="book">book</option>
+                        <option value="tv">tv</option>
+                        <option value="laptop">laptop</option>
+                    </select>
+                </div>
+                <input required id="inputName" placeholder="mahsulot nomini yozing:" type="text">
+                <input required id="inputPrice" placeholder="narx belgilang:" type="text">
+                <button id="accpet" type="button">Tasdiqlash</button>
+            </div>
+            <div class="forDeleteContainer">
+                <p>o'chirmoqchi bo'lgan mahsulotning id sini kiriting</p>
+                <input required id="forDelete" type="text">
+                <button id="acceptDelete" class="btn">Tasdiqlash</button>
+                <button id="acceptDeleteTwo" class="btn">O'chirishga ishonchingiz komilmi?</button>
+            </div>
+            <div class="changeContainer">
+                <p class="otherP">o'zgartirmoqchi bo'lgan mahsulotning id sini kiriting</p>
+                <input required id="forPut" type="text">
+                <button id="changeItem" class="btn">Tasdiqlash</button>
+                <button id="changeItemTwo" class="btn">O'zgartirilsinmi?</button>
+            </div>
+            <div class="preview"></div>
+        </section>
+    </main>
+
+
+    <script src="./js/admin.js"></script>
+</body>
+
+</html>
