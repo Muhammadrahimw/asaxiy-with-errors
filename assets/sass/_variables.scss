@@ -1,0 +1,19 @@
+$main-color: rgba(0, 107, 255, 1);
+$bg-color: rgba(244, 247, 253, 1);
+$white-color: rgba(255, 255, 255, 1);
+$black-color: rgba(20, 24, 33, 1);
+$gray-color: rgba(148, 163, 184, 1);
+$orange-color: rgba(254, 115, 0, 1);
+$green-color: rgba(0, 191, 175, 1);
+
+@mixin btw() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.left {
+  width: 50%;
+}
+
+.btns {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+
+.btn {
+  width: 100%;
+  height: 160px;
+  cursor: pointer;
+  border-radius: 0.5em;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  font-size: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#put {
+  grid-column: 1/3;
+}
+
+.preview {
+  /* display: none; */
+}
+
+.right {
+  width: 50%;
+}
+
+.info {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  padding-left: 1em;
+  font-size: 1em;
+  border-radius: 0.5em;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+#inputImg {
+  border: none;
+  font-size: 1.25em;
+  margin-top: 1em;
+  padding-left: 0;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+select {
+  height: 30px;
+  border-radius: 0.2em;
+  font-size: 1em;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+#accpet {
+  grid-column: 1/3;
+  height: 2.5em;
+  border-radius: 0.5em;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  font-size: 1.5em;
+}
+
+.forDeleteContainer {
+  display: none;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 1.25em;
+}
+
+.forDeleteContainer .btn {
+  height: 3em;
+  font-size: 1em;
+}
+
+.preview {
+  margin-top: 2em;
+  padding-left: 10em;
+}
+
+.card {
+  border-radius: 1.25em;
+  background-color: white;
+  padding: 1em;
+  width: 70%;
+}
+.card .img {
+  background-image: url("https://assets.asaxiy.uz/product/items/desktop/b7045dfe63270c1756cc5d02c22846842024010714424078436pwzq5I68VI.jpeg.webp");
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.card .title {
+  margin-top: 1em;
+}
+.card .rating {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .rating .stars {
+  color: orange;
+  display: flex;
+  gap: 0.1em;
+}
+.card .rating .comments {
+  color: gray;
+  opacity: 0.8;
+}
+.card .price {
+  margin-top: 0.75em;
+}
+.card .price .real_price {
+  font-size: 0.75em;
+  color: gray;
+  text-decoration: line-through;
+}
+.card .price .precent_price {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: main;
+  padding: 0.5em 0;
+}
+.card .price .monthly_price {
+  border: 2px solid orange;
+  padding: 0.5em;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: orange;
+  background-color: transparent;
+  border-radius: 0.25em;
+}
+.card .adding_product {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+.card .adding_product .btn {
+  width: 100%;
+  height: 40px;
+  font-size: 0.8em;
+  color: white;
+  background-color: blue;
+  border-radius: 0.6em;
+  border: none;
+}
+.card .adding_product div {
+  width: 3.5em;
+  height: 40px;
+  border-radius: 0.6em;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#acceptDeleteTwo {
+  display: block;
+  height: 50px;
+}
+
+.changeContainer {
+  display: none;
+  flex-direction: column;
+}
+
+#changeItem {
+  height: 2.5em;
+  margin-top: 0.5em;
+}
+
+#forPut {
+  margin-top: 0.5em;
+}
+.loader {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  animation: l1 1s linear infinite alternate;
+  height: 500px;
+  display: none;
+}
+.loader:before {
+  content: "Loading...";
+}
+@keyframes l1 {
+  to {
+    opacity: 0;
+  }
+}

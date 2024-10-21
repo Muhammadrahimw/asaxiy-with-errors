@@ -1,0 +1,214 @@
+@use "./variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+main {
+  background-color: $bg-color;
+}
+
+a {
+  text-decoration: none;
+  color: $black-color;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.hdg {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.prg {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.bprg {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sprg {
+  font-size: 0.75em;
+  font-weight: 400;
+}
+
+.shop_title {
+  margin-top: 50px;
+}
+
+.shop_item {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 30px;
+}
+
+.main {
+  background-color: #f4f7fd;
+  padding: 100px 0;
+}
+
+.shop_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
+
+  h2 {
+    font-size: 14px;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+.counter_btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 100%;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+.delete_shop {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.total_price {
+  margin-top: 50px;
+  background-color: #fff;
+  height: 200px;
+  padding: 30px;
+  border-radius: 10px;
+
+  button {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #016aff;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+.likeContainer {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+
+  .card {
+    border-radius: 1.25em;
+    background-color: $white-color;
+    padding: 1em;
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .title {
+      margin-top: 1em;
+      height: 39px;
+    }
+
+    .rating {
+      margin-top: 1em;
+      @include btw;
+
+      .stars {
+        color: $orange-color;
+        display: flex;
+        gap: 0.1em;
+      }
+
+      .comments {
+        color: $gray-color;
+        opacity: 0.8;
+      }
+    }
+
+    .price {
+      margin-top: 0.75em;
+
+      .real_price {
+        font-size: 0.75em;
+        color: $gray-color;
+        text-decoration: line-through;
+      }
+
+      .precent_price {
+        font-size: 1.15em;
+        font-weight: 700;
+        color: $main-color;
+        padding: 0.5em 0;
+      }
+
+      .monthly_price {
+        border: 2px solid $orange-color;
+        padding: 0.5em;
+        font-size: 0.9em;
+        font-weight: 500;
+        color: $orange-color;
+        background-color: transparent;
+        border-radius: 0.25em;
+      }
+    }
+
+    .adding_product {
+      margin-top: 1em;
+      @include btw;
+      gap: 0.5em;
+
+      .btn {
+        width: 100%;
+        height: 40px;
+        font-size: 0.8em;
+        color: $white-color;
+        background-color: $main-color;
+        border-radius: 0.6em;
+        border: none;
+      }
+
+      .btn_shop {
+        width: 3.5em;
+        height: 40px;
+        border-radius: 0.6em;
+        background-color: $green-color;
+        color: $white-color;
+        @include center;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "img": "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b2024040615521088470KsauKN1BLz.jpg.webp",
+      "title": "Hofmann Compact 3D Inverter 09 konditsioneri",
+      "price": "5 189 000 so'm",
+      "category": "air",
+      "rate": 4
+    },
+    {
+      "id": "2",
+      "img": "https://assets.asaxiy.uz/product/items/desktop/c81e728d9d4c2f636f067f89cc14862c2024040615521048358Vuh3gOkbck.png.webp",
+      "title": "9-12 model konditsionerini o'rnatish xizmati",
+      "price": "519 000 so'm",
+      "category": "air",
+      "rate": 3
+    },
+    {
+      "id": "3",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop/659a6fd162774.jpeg.webp",
+      "title": "Samsung Galaxy A15 6/128GB Black Smartfoni",
+      "price": "2 199 000 so'm",
+      "category": "phone",
+      "rate": 5
+    },
+    {
+      "id": "4",
+      "img": "https://assets.asaxiy.uz/product/items/desktop/ebd9629fc3ae5e9f6611e2ee05a31cef2024011520033328813klKytp2gzf.png.webp",
+      "title": "Xiaomi Redmi Note 13 6/128GB Qora Smartfoni",
+      "price": "2 199 000 so'm",
+      "category": "phone",
+      "rate": 2
+    },
+    {
+      "id": "5",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//65f42660bc52a.png.webp",
+      "title": "Xiaomi Redmi 13C 8/256GB Qora Smartfoni. BESTSELLER!",
+      "price": "1 869 000 so'm",
+      "category": "phone",
+      "rate": 1
+    },
+    {
+      "id": "6",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//65a7a4c64b288.png.webp",
+      "title": "Xiaomi Redmi Note 13 Pro 8/128 GB Midnight Black...",
+      "price": "2 999 000 so'm",
+      "category": "phone",
+      "rate": 4
+    },
+    {
+      "id": "7",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//63db86f388dbb.jpg",
+      "title": "Xiaomi Deerma DX900 Green changyutgichi",
+      "price": "999 000 so'm",
+      "category": "house",
+      "rate": 3
+    },
+    {
+      "id": "8",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//6538aa8cc6078.jpg.webp",
+      "title": "Tefal K1750D30 va SF-5525 elektr choynagi",
+      "price": "1 329 000 so'm",
+      "category": "house",
+      "rate": 5
+    },
+    {
+      "id": "9",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//659911dd9cd6e.jpg.webp",
+      "title": "Sonifer SF-5525 4 tasi 1 da blender, choper, kofe...",
+      "price": "739 000 so'm",
+      "category": "house",
+      "rate": 4
+    },
+    {
+      "id": "10",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//612a32101d8d2.jpg.webp",
+      "title": "MOONX SY6000W 6kg kir yuvish mashinasi",
+      "price": "2 939 000 so'm",
+      "category": "house",
+      "rate": 3
+    },
+    {
+      "id": "11",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//665db2ed7e8ac.jpg",
+      "title": "Kleyton M.Kristenson, Efosa Ojomo, Karen Dillon: Farovonl...",
+      "price": "80 000 so'm",
+      "category": "book",
+      "rate": 3
+    },
+    {
+      "id": "12",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//66ee3fd9d85d5.jpg",
+      "title": "Tara Vestover: Talaba (yumshoq muqova)",
+      "price": "60 000 so'm",
+      "category": "book",
+      "rate": 3
+    },
+    {
+      "id": "13",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//66d18a1638bfa.jpg",
+      "title": "Beshtasi birda va yetkazib berish bepul! Bestsellerlar",
+      "price": "199 000 so'm",
+      "category": "book",
+      "rate": 5
+    },
+    {
+      "id": "14",
+      "img": "https://assets.asaxiy.uz/product/items/desktop/e26512382d6cdcbce4d8126286e6b8ed2024092609515672895JWN4DaMJfy.jpg",
+      "title": "Bo Bennett: Mantiqiy xato: To'g'ri fikrlash qo'llanmasi...",
+      "price": "79 000 so'm",
+      "category": "book",
+      "rate": 2
+    },
+    {
+      "id": "15",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//658acdfe181b8.jpg.webp",
+      "title": "Moonx 43AH700 Android TV televizori (sotuv xiti!)",
+      "price": "2 199 000 so'm",
+      "category": "tv",
+      "rate": 1
+    },
+    {
+      "id": "16",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//651647bed74e6.jpg.webp",
+      "title": "Artel A32KH5000 HD TV televizori",
+      "price": "1 359 000 so'm",
+      "category": "tv",
+      "rate": 4
+    },
+    {
+      "id": "17",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop/65d0389c1926b.jpg.webp",
+      "title": "Artel IJA32H4101 LED TV televizori",
+      "price": "1 399 000 so'm",
+      "category": "tv",
+      "rate": 3
+    },
+    {
+      "id": "18",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//65dde6d35efd7.png.webp",
+      "title": "Premier 32PRM650 HD televizori",
+      "price": "1 459 000 so'm",
+      "category": "tv",
+      "rate": 3
+    },
+    {
+      "id": "19",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//6502edceeed93.jpg.webp",
+      "title": "Acer Aspire 3 A315-59-39S9, Core i3-1215U, 8/256 Gb SSD,...",
+      "price": "3 999 000 so'm",
+      "category": "laptop",
+      "rate": 3
+    },
+    {
+      "id": "20",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//64a162e8a1f97.jpg.webp",
+      "title": "HP 15S-FQ5004, core 13-1215U, DDR4 8GB, SSD 256G...",
+      "price": "4 999 000 so'm",
+      "category": "laptop",
+      "rate": 3
+    },
+    {
+      "id": "21",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop/638d9490b8405.jpg.webp",
+      "title": "Lenovo V15 / Intel Celeron N4020 / DDR4 4 GB / SSD...",
+      "price": "2 909 000 so'm",
+      "category": "laptop",
+      "rate": 4
+    },
+    {
+      "id": "22",
+      "img": "https://assets.asaxiy.uz/product/main_image/desktop//63c8e4c2747bd.jpg",
+      "title": "Lenovo Ideapad 1 151GL7, Celeron n4020, DDR4 4GB,...",
+      "price": "2 779 000 so'm",
+      "category": "laptop",
+      "rate": 2
+    },
+    {
+      "id": "23",
+      "img": "https://assets.asaxiy.uz/product/items/desktop/eccbc87e4b5ce2fe28308fd9f2a7baf32024040615521031996zq7aSii7UQ.png.webp",
+      "title": "Artel Everest 12 Inverter konditsioneri",
+      "price": "4 939 000 so'm",
+      "category": "air"
+    },
+    {
+      "id": "24",
+      "img": "https://assets.asaxiy.uz/product/items/desktop/c4ca4238a0b923820dcc509a6f75849b2024040615521088470KsauKN1BLz.jpg.webp",
+      "title": "Hofmann Compact 3D Inverter 09 konditsioneri",
+      "price": "5 189 000 so'm",
+      "category": "air",
+      "rate": 5
+    },
+    {
+      "id": "25",
+      "img": "https://assets.asaxiy.uz/product/items/desktop/c81e728d9d4c2f636f067f89cc14862c2024040615521048358Vuh3gOkbck.png.webp",
+      "title": "9-12 model konditsionerini o'rnatish xizmati",
+      "price": "519 000 so'm",
+      "category": "air",
+      "rate": 3
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <main class="main">
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./elements/Link.svg" alt="logo" /></a>
+        </div>
+        <div class="bars_category">
+          <i id="bars" class="fa-solid fa-bars fa-xl"></i>
+          <div id="category_bars" class="idle_category">
+            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+            <p class="prg">Категории</p>
+          </div>
+        </div>
+        <div class="nav_search">
+          <input placeholder="Поиск..." type="text" />
+          <div>Искать</div>
+        </div>
+        <div class="icons">
+          <i id="close" class="fa-solid fa-xmark"></i>
+          <div>
+            <img src="./elements/compare_header.svg.svg" alt="" />
+            <p class="sprg">Сравнение</p>
+          </div>
+          <div>
+            <img src="./elements/payment.svg.svg" alt="" />
+            <p class="sprg">Оплатить</p>
+          </div>
+          <div>
+            <img src="./elements/tracker.svg.svg" alt="" />
+            <p class="sprg">Отследить</p>
+          </div>
+          <a href="./shop.html" class="shop_icon">
+            <img src="./elements/cart.svg.svg" alt="" />
+            <p class="sprg">Корзина</p>
+            <span class="counter counter2"> 0</span>
+          </a>
+          <div>
+            <img src="./elements/heart.svg.svg" alt="" />
+            <p class="sprg">Избранное</p>
+          </div>
+          <div>
+            <img src="./elements/language-uz.svg.svg" alt="" />
+            <p class="sprg">O'zbekcha</p>
+          </div>
+          <div>
+            <img src="./elements/avatar.svg.svg" alt="" />
+            <p class="sprg">Войти</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h1 class="shop_title">Корзина</h1>
+      <section class="shop_item">
+        <div class="shop_cards_item"></div>
+        <div class="total_price">
+          <p>В корзине <span class="product_all">0</span> товара</p>
+          <h2>
+            Общая сумма: <span class="total_price_item">10 258 000</span> сум
+          </h2>
+          <hr />
+          <button>ОФОРМИТЬ</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="./js/shop.js"></script>
+  <!-- <script type="module" src="./js/total.js"></script> -->
+</body>
+
+</html>

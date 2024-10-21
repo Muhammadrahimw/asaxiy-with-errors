@@ -1,0 +1,72 @@
+@use "./variables" as *;
+
+footer {
+    margin-top: 3em;
+
+    section {
+        background-color: $main-color;
+        padding: 2.25em 0;
+        @include center;
+
+        .footer_top {
+            background-color: $white-color;
+            border-radius: 1.25em;
+            padding: 2em 3em;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            gap: 1em;
+
+            .sprg {
+                margin-top: 0.5em;
+                color: $gray-color;
+            }
+        }
+    }
+}
+
+.footer_main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    padding: 2.5em 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+
+    .footer_main-item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75em;
+
+        .bprg {
+            padding-bottom: 0.5em;
+        }
+
+        .prg {
+            color: $gray-color;
+        }
+
+        .footer_block-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5em;
+        }
+
+        .footer_block {
+            width: 9.3em;
+            height: 3.5em;
+            background-color: rgba(242, 242, 247, 1);
+            border-radius: 8px;
+        }
+
+        .footer_social {
+            display: flex;
+            gap: 0.75em;
+        }
+    }
+}
+
+.footer_bottom {
+    text-align: center;
+    color: $gray-color;
+    padding: 1em;
+}
